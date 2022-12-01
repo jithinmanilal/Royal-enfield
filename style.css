@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background: #fff;
+    display:flex;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-button-prev:hover, .swiper .swiper-button-next:hover{
+    color: red;
+}
+.swiper .swiper-pagination-bullet-active{
+    background:red;
+}
+.Ctext{
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 0px auto;
+}
+#Ctextred{
+    color: red;
+}
+.form{
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 0px 20px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;    
+}
+.name{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+}
+.email{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+}
+.bikes{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+}
+.countrycode{
+    height: 40px;
+    width: 60px;
+    margin: 10px;
+}
+.mob{
+    height: 40px;
+    width: 230px;
+    margin: 0px;
+}
+.pin{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+}
+#disclaimer{
+    line-height: normal;
+}
+.submit{
+    background: #fff;
+    color: black;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.submit:hover{
+    background: black;
+    color: #fff;
+}
+.Terms{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+    text-align: center;
+ }
+ .logo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+ }

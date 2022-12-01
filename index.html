@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Enfield</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+<div class="container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="classic-banner.webp"></div>
+          <div class="swiper-slide"><img src="bullet-banner.webp"></div>
+          <div class="swiper-slide"><img src="meteor-banner.webp"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+</div>
+<br>
+<div class="Ctext">
+    <p>Ride home a time-tested heritage. Easier now with down payment starting at Rs. 9,000* (for Bullet), Rs. 11,000* (for Classic) and Rs. 12,000* (for Meteor).</p>
+    <br>
+    <p id="Ctextred">Book a Test Ride Today.</p>
+</div>
+<div class="form">
+    <form>
+    <input type="text" class="name" name="yourname" value="Your Name*">
+    <input type="email" class="email" name="email" value="Email Address*">
+    <br>
+    <select class="bikes" name="bikes">
+        <option value="Select Motorcycle*">Select Motorcycle*</option>
+        <option value="Hunter 350">Hunter 350</option>
+        <option value="Scram 411">Scram 411</option>
+        <option value="Meteor 350">Meteor 350</option>
+        <option value="Interceptor 650">Interceptor 650</option>
+        <option value="Continental GT 650">Continental GT 650</option>
+        <option value="Classic 350">Classic 350</option>
+        <option value="Bullet">Bullet</option>
+        <option value="Himalayan">Himalayan</option>
+    </select>
+    <select class="countrycode" name="Countrycode">
+        <option value="91">91</option>
+        <option value="971">971</option>
+        <option value="1">1</option>
+    </select>
+    <input type="tel" class="mob" name="Mobile Number" value="Mobile Number*">
+    <br>
+    <input type="text" class="pin" pattern="^[a-zA-Z0-9 ]+$" name="Pincode" inputmode="numeric" maxlength="6" value="Pin Code*">
+    <p id="disclaimer">Disclaimer: By signing this form/checking this box, you acknowledge and agree that we may use the <br>information you
+         share with us, to communicate with you through e-mails, text messages, WhatsApp<br> and calls, in order to provide 
+         our product or service related information and/or for promotional and<br> marketing purposes. All information 
+         provided will be secured and processed as per our <strong>privacy<br> policy.</strong></p>
+    <input type="checkbox" class="term">
+    <label>I accept the <strong>terms and conditions</strong> as well as <strong>privacy policy.</strong></label>
+    <br>
+    <input type="submit" class="submit" value="Submit  >">
+</form>
+</div>
+<div class="Terms">*Terms and conditions apply. The indicative EMI is calculated per lakh on a 4-year loan tenure. 
+    The estimated value of your old two-wheeler can be used as your down payment.</div>
+  <div class="logo"><img src="relogo.jpg"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction:false,
+  },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+</body>
+</html>
